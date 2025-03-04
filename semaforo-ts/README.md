@@ -1,4 +1,4 @@
-# Semaforo de temperatura
+# Semaforo de temperatura - version Typescript
 
 Este proyecto tiene como objetivo ejemplificar la implementación del partrón "Ports y Adapters" (aka arquitectura hexagonal) en typescript.
 

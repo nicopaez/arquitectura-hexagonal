@@ -13,6 +13,12 @@ app.get("/color", (req: Request, res: Response) => {
   res.send({ "color-temperatura": Color[modelo.ObtenerColor()] });
 });
 
+app.get("/", (req: Request, res: Response) => {
+  res.json({
+    mensaje: "Bienvenido al Semanforo de Temperatura - typescript version",
+  });
+});
+
 app.listen(3000, () => {
   console.log("app running on port 3000");
 });
